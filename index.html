@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--META INFORMATION-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A humble internet explorer, artist and developer creating some art, some videos, some websites and lots of things, check it out.">
+    <meta property="og:title" content="Roxie Linhares - Dev & Design" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://roxie0strawberry.com/" />
+      <meta property="og:image" content="images\me-art-for-website-portrait-cartdfoon-p-500.png" />
+      <meta name="twitter:card" content="summary"></meta>
+      <meta name=”twitter:site” content=”https://roxie0strawberry.com/” /> 
+      <meta name=”twitter:title” content=”Roxie Linhares - Dev & Design” /> 
+      <meta name=”twitter:description” content=”A humble internet explorer, artist and developer creating some art, some videos, some websites and lots of things, check it out.” /> 
+      <meta name=”twitter:image” content=”images\me-art-for-website-portrait-cartdfoon-p-500.png” />
+      <!---Head info + fonts + icon packs-->
+    <title>Roxie Linhares - Dev & Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alike&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="images\favicon.png" rel="shortcut icon" type="image/x-icon">
+<link href="images\webclip.png" rel="apple-touch-icon">
+<!--=============== REMIXICONS ===============-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+
+
+</head>
+<!---->
+<header class="header">
+  <nav class="nav container">
+     <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+           <img src="images\6512db23a222dae853435d05_my new logo2.0-02.png" alt="Roxie Logo">
+        </a>
+        
+        <div class="nav__toggle" id="nav-toggle">
+           <i class="ri-menu-line nav__burger show-icon"></i>
+           <i class="ri-close-line nav__close show-icon"></i>
+        </div>
+     </div>
+
+     <!--=============== NAV MENU ===============-->
+     <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+           <li><a href="about-me.html" class="nav__link">About</a></li>
+
+           <!--=============== DROPDOWN 1 ===============-->
+           <li class="dropdown__item">
+              <div class="nav__link">
+                 Experience <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                 <li>
+                    <a href="#skills" class="dropdown__link">
+                        Skills
+                    </a>                          
+                 </li>
+<li>
+                 <!--=============== DROPDOWN SUBMENU ===============-->
+                 <li class="dropdown__subitem">
+                    <div class="dropdown__link">
+                        Projects <i class="ri-add-line dropdown__add"></i>
+                    </div>
+
+                    <ul class="dropdown__submenu">
+                       <li>
+                          <a href="#web-dev-projects" class="dropdown__sublink">
+                              Web Dev
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#Design-projects" class="dropdown__sublink">
+                              Design
+                          </a>
+                       </li>
+                       <li>
+                        <a href="#video-projects" class="dropdown__sublink">
+                            Video
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#marketing-projects" class="dropdown__sublink">
+                            Marketing
+                        </a>
+                     </li>
+
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+
+           <!--=============== DROPDOWN 2 ===============-->
+           <li class="dropdown__item">
+              <div class="nav__link">
+                 Contact me <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                 <li>
+                    <a href="https://www.instagram.com/roxie0strawberry/" class="dropdown__link">
+                        Instagram
+                    </a>                          
+                 </li>
+
+                 <li>
+                    <a href="https://www.youtube.com/c/Roxie0strawberry" class="dropdown__link">
+                        Youtube
+                    </a>
+                 </li>
+
+                 <li>
+                    <a href="contact-me.html" class="dropdown__link">
+                        Contact page
+                    </a>
+                 </li>
+              </ul>
+           </li>
+
+           <li><a href="https://www.twitch.tv/untitledgamestudios/about" class="nav__link twitch">Live on Twitch</a></li>
+        </ul>
+     </div>
+  </nav>
+</header>
+<body>
+<div class="true-body">
+<section class="hero-banner">
+    <div class="hero-text">
+        <h1 class="hero-header typing">Designer & Developer</h1>
+        <h3 class="hero-sub-heading ">I bridge art and the internet, make ideas shine and pixels tell stories.</h3>
+    </div>
+    <div class="hero-image">
+        <img class="hero-img" src="images/me-art-for-website-portrait-cartdfoon-p-500.png">
+    </div>
+</section>
+<section class="about-text">
+   <div class="about-text-wrapper">
+      <h1>Hello There</h1>
+      <p>I'm Roxie! I'm a digital creative with 14+ years of experience blending art and web development. I craft user-friendly websites and compelling digital narratives. Fueled by film and strategic communication, I bring a fresh perspective to every project, striking the balance between elegance and effectiveness.</p>
+   </div>
+</section>
+<section class="cv-menu" id="skills">
+   <div class="menu-general-wrapper">
+      <div class="images-wrapper">
+        <a href="#Design-projects"> <img class="size1 icon" src="images\painting pallete.svg"><span>Design & Art</span></a>
+        <a href="#web-dev-projects"><img class="size2 icon" src="images\laptop.svg"><span>Web Development</span></a>
+        <a href="#video-projects"><img class="size1 icon" src="images\clapper.svg"><span>Film Production</span></a>
+        <a href="#marketing-projects"><img class="size1 icon" src="images\notebook.svg"><span>Branding & Marketing</span></a>
+
+      </div>
+      <div class="cv-title-wrapper">
+         <h1>Skill Tree </h1>
+      </div>
+
+   </div>
+</section >
+<section class="web-dev-cv" id="web-dev-projects">
+   <div class="information-wrap">
+      <div class="info-text-cv">
+      <h2>Web Development</h2><br>
+      <p><strong>Front-End Development:</strong> Proficient in HTML, CSS, and working knowledge of Javascript and Git.<br><br>
+
+         <strong>Content Management Systems (CMS):</strong> Extensive experience with Shopify, Squarespace, Webflow, and WordPress. Built websites for diverse clients like small artists and large e-commerce stores.</p>
+      </div>
+      <div class="img-wrap-cv">
+         <img class="cv-img" src="images\laptop.svg">
+      </div>
+   </div>
+   <div class="tools-wrapper">
+      <div class="tools-title-wrap">
+         <h2>Tools</h2>
+      </div>
+      <div class="tools-icon-wrap">
+         <i class="ri-css3-fill"></i>
+         <i class="ri-html5-fill"></i>
+         <i class="ri-javascript-fill"></i>
+         <i class="fa-brands fa-squarespace"></i>
+         <i class="fa-brands fa-shopify"></i>
+         <i class="fa-brands fa-github"></i>
+         <i class="fa-brands fa-webflow"></i>
+         <i class="fa-brands fa-wordpress"></i>
+      </div>
+   </div>
+</section>
+<section class="favs-cv">
+   <div class="favs-title">
+      <h2>Favorite Projects</h2>
+   </div>
+   <div class="project-wrapper">
+      <a href="https://half3.ie"><img src="images\image (3) (1).png" alt="Half 3 website thumbnail"></a>
+      <a href="https://ugs.pt"><img src="images\image (2) (1).png" alt="UGS website thumbnail"></a>
+      <a href="https://pumpskynz.com"><img src="images\image (1) (1).png" alt="Pumpskynz website thumbnail"></a>
+   </div>
+
+</section>
+<section class="film-cv" id="video-projects">
+   <div class="information-wrap art-wrap">
+      <div class="info-text-cv">
+      <h2>Video content & editing</h2><br>
+      <p><strong>Video Editing:</strong>
+         Experience editing diverse content: music videos, short films, showreels, social media videos (Instagram Reels, TikToks and youtube videos and shorts), trailers, and teasers.<br><br>
+         
+         <strong>Pre-Production:</strong>
+         Skilled in storyboarding, creating video briefs and scripts, and video direction.<br><br>
+         
+         <strong>Live Production :</strong>
+         Experience in livestream production, managing content as both a behind-the-scenes producer and moderator.</p>
+      </div>
+      <div class="img-wrap-cv">
+         <img class="cv-img img-film" src="images\clapper.svg">
+      </div>
+   </div>
+   <div class="tools-wrapper">
+      <div class="tools-title-wrap">
+         <h2>Tools</h2>
+      </div>
+      <div class="tools-icon-wrap film-wrap">
+         <i class="fi fi-brands-premiere"></i>
+         <img class="icon-norm" src="images\icons8-final-cut-pro-x.svg">
+         <img class="icon-norm" src="images\icons8-davinci-resolve.svg">
+         <img class="icon-norm" src="images\Obs-Studio-Logo--Streamline-Logos.svg">
+         <img class="icon-norm" src="images\icons8-streamlabs-obs.svg">
+         <img class="icon-norm" src="images\capcut.svg">
+         <i class="fa-brands fa-twitch"></i>
+         <i class="fa-brands fa-youtube"></i>
+         
+      </div>
+   </div>
+</section>
+<section class="favs-cv">
+   <div class="favs-title">
+      <h2>Favorite Projects</h2>
+   </div>
+   <div class="project-wrapper">
+      <div class="iframe-wrapper">
+      <iframe src="https://www.youtube.com/embed/i9jVxuUlfwI?si=Ipk8ZzEphmXo7kA1&amp;start=88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/EZXAuS4GQEU?si=2y91a-9x7TR3L22s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/9kgLN-y3RAI?si=W9mc7doABTIlzrup" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+   </div>
+
+</section>
+<section class="art-cv" id="Design-projects">
+   <div class="information-wrap art-wrap">
+      <div class="info-text-cv">
+      <h2>Design & digital art </h2><br>
+      <p><strong> Digital Illustration:</strong>
+         Proficient in various art styles: vector art, cartoon, comic book, and full realism paintings.
+         Skilled in photo editing and manipulation.<br><br>
+         
+         <strong>Web Design:</strong>
+         Extensive knowledge of UX/UI principles for website and game design.
+         Experience creating user-friendly and visually appealing interfaces for diverse website styles.<br><br>
+         
+         <strong>Concept Art:</strong>
+         Adept at translating ideas into detailed sketches, aiding teams in visualizing characters, environments, and objects.<br><br>
+         
+         <strong>Social Media Design:</strong>
+         Skilled in crafting engaging and visually compelling social media post designs.</p>
+      </div>
+      <div class="img-wrap-cv">
+         <img class="cv-img" src="images\painting pallete.svg">
+      </div>
+   </div>
+   <div class="tools-wrapper">
+      <div class="tools-title-wrap">
+         <h2>Tools</h2>
+      </div>
+      <div class="tools-icon-wrap film-wrap">
+         <i class="fi fi-brands-photoshop"></i>
+         <i class="fi fi-brands-illustrator"></i>
+         <i class="fi fi-brands-photoshop-lightroom"></i>
+         <i class="fi fi-brands-figma"></i>
+         <img class="canva" src="images\canva.svg">
+         <img class="canva" src="images\inkscape.svg">
+         <svg class="canva" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Affinity-Logo--Streamline-Logos"><desc>Affinity Logo Streamline Icon: https://streamlinehq.com</desc><path fill="#000000" fill-rule="evenodd" d="M0.24 18.4145L2.3782 14.6727L4.5164 13.6036L8.7927 6.12L7.7236 5.0509L9.8618 1.3091H14.1382L23.76 18.4145L21.6218 22.6909H2.9127L0.24 18.4145ZM10.3964 17.3455L11.4654 18.4145H6.12L11.4654 8.7927L16.8109 17.3455H10.3963Z" clip-rule="evenodd" stroke-width="1"></path></svg>
+         <img class="canva" src="images\aseprite-svgrepo-com.svg">
+      </div>
+   </div>
+</section>
+<section class="favs-cv">
+   <div class="favs-title">
+      <h2>Favorite Masterpieces</h2>
+   </div>
+   <div class="grid-wrapper">
+      <div>
+         <img src="images\Artboard 5.png" alt="" />
+      </div>
+      <div>
+         <img src="images\kermit meme cropped for discord.jpg" alt="" />
+      </div>
+      <div class="tall">
+         <img src="images\15150099905_2266bcd40a_o.jpg" alt="">
+      </div>
+      <div class="wide">
+         <img src="images\earth kingdom.jpg" alt="" />
+      </div>
+      <div>
+         <img src="images\Pigeon Posts.png" alt="" />
+      </div>
+      <div class="tall">
+         <img src="images\cone head.png" alt="" />
+      </div>
+      <div>
+         <img src="images\temple.png" alt="" />
+      </div>
+      <div class="wide">
+         <img src="images\Fire kingdom landscape.jpg" alt="" />
+      </div>
+      <div class="tall">
+         <img src="images\vilan redrun concept art.jpg" alt="" />
+      </div>
+      <div>
+         <img src="images\osteomootron by i.a.n.png" alt="" />
+      </div>
+      <div class="tall">
+         <img src="images\Pintura para o pai.jpg" alt="" />
+      </div>
+      <div>
+         <img src="images\hero droian for website.png" alt="" />
+      </div>
+      <div class="tall">
+         <img src="images\PicsArt_11-28-05.41.39.jpg" alt="" />
+      </div>
+      <div class="wide">
+         <img src="images\Ice kingdom.png" alt="" />
+      </div>
+      <div>
+         <img src="images\power of the sun rick.png" alt="" />
+      </div>
+      <div>
+         <img src="images\Artboard 1.png" alt="" />
+      </div>
+      <div>
+         <img src="images\Artboard 10.png" alt="" />
+      </div>
+   </div>
+
+
+
+</section>
+<section class="film-cv" id="marketing-projects">
+   <div class="information-wrap art-wrap">
+      <div class="info-text-cv">
+      <h2>Branding & Marketing </h2><br>
+      <p><strong>Content Creation & Management:</strong>
+         Skilled in copywriting and creating consistent social media content.
+         Experienced in managing social media analytics and optimizing channels for growth.<br><br>
+         
+         <strong>Brand Management:</strong>
+         Experience in branding, brand management and social media ad creation (various platforms + Google Ads).<br><br>
+         
+         <strong>Additional Skills:</strong>
+         Production & Launch Management,
+         PR & Media Relations,
+         Internal Marketing & Team Motivation,
+         Deep understanding of internet culture & organic marketing strategies </p>
+      </div>
+      <div class="img-wrap-cv">
+         <img class="cv-img img-film" src="images\notebook.svg">
+      </div>
+   </div>
+   <div class="tools-wrapper">
+      <div class="tools-title-wrap">
+         <h2>Tools</h2>
+      </div>
+      <div class="tools-icon-wrap film-wrap">
+         <i class="fa-brands fa-square-instagram"></i>
+         <i class="fa-brands fa-tiktok"></i>
+         <i class="fa-brands fa-square-twitter"></i>
+         <i class="fa-brands fa-youtube"></i>
+         <img class="icon-norm" src="images\Google-Ads-Logo--Streamline-Logos.svg">
+         <img class="icon-norm" src="images\Google-Adsense-Logo--Streamline-Logos.svg">
+         <img class="icon-norm" src="images\Linkedin-Logo--Streamline-Logos.svg">
+         <img class="icon-norm" src="images\Whatsapp-Logo--Streamline-Logos.svg">
+         <i class="fa-brands fa-square-facebook"></i>
+         <i class="fa-solid fa-envelope"></i>
+         
+      </div>
+   </div>
+</section>
+<section class="favs-cv">
+   <div class="favs-title">
+      <h2>Favorite Posts & Promotion</h2>
+   </div>
+   <div class="project-wrapper social-wrapper">
+      <img src="images\thewrittingberry posts.png" alt="A playlist post for a playlist done by me called Duets for you and me">
+      <img src="images\what not do to social media carrousel-01.png" alt="Beginning of a informational carrousel about creating social media accounts and SEO">
+      <img src="images\4 tips (1) (1).png" alt="A graphic post with 4 tips for beginning programmers">
+      <img src="images\diabetic supply pumpskynz flatlay 2.png" alt="Flatlay post done on photoshop of some products">
+
+      <img src="images\3 (2).png" alt="A funny coffee meme post done is a neutral color pallete showing a coffee with a shocked face and saying that When you are up so early that even your coffee is shook">
+      <img src="images\billboard edit 1.png" alt="A photomanipulation post where a billboard talkings about how marketing needs to be about connect and conversion and not money and ads">
+      <img src="images\wrong answer only posts (1).png" alt="Engagement based post with the title of Hot and Cold takes asking the person seeing it what is the worst game to Tv/film adaptation">
+      <img src="images\kicking pump edit reworked.png" alt="A photomanipulation post where the product is being kicked to show how resistant it is">
+   </div>
+
+</section>
+<section class="pre-footer">
+   <div class="rotating-text">
+      <p>I can be your</p>
+      <p>
+        <span class="word alizarin">Designer.</span>
+        <span class="word wisteria">Developer.</span>
+        <span class="word peter-river">Creative.</span>
+        <span class="word emerald">Marketeer.</span>
+        <span class="word sun-flower">Producer.</span>
+      </p>
+    </div>    
+</section>
+
+</div>
+    <!--END OF WEBSITE-->
+<section id="Footer">
+  <div class="footer">
+  <div class="footer-information">
+  <div class="footer-logo"><img src="images\my-new-logo-for-website-toiny-02-p-800.png" loading="lazy" alt="Vector Strawberry"> 
+  </div>
+  <div class="contact-us-column">
+       <h3 class="links-heading">Contact </h3>
+    <a href="mailto:love0thayna@gmail.com" class="contact-email-ugs">
+          <div class="email">love0thayna@gmail.com</div>
+          </a>
+  </div>
+  <div class="Links-column">
+       <h3 class="links-heading"> More from moi </h3>
+   <ul class="Social-links">
+    <a href="https://www.instagram.com/thedevberry/"class="contact-email-ugs">Instagram</a>
+    <a href="https://www.linkedin.com/in/thayna-linhares-81a2b78a/"class="contact-email-ugs">Linkedin</a>
+    <a href="https://ugs.pt"class="contact-email-ugs">Game Studio</a>
+   </ul>
+       </div>
+ 
+  </div>
+  
+  <div class="copyright-info">
+    <p class="copyright-text"> Copyright © 2024 Roxie Linhares </p>
+  </div>
+  
+  </div>
+  </section>
+  <script src="https://kit.fontawesome.com/9024efcae0.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
