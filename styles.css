@@ -1157,6 +1157,10 @@ margin-bottom:20px !important;
   background-color:#0101016e;
   
 }
+.vasco-moveiscase{
+  background-color: var(--main-white);
+  color: var(--main-black);
+}
 
     /*----------------FOOTER----------------*/
 
