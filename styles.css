@@ -704,9 +704,20 @@ a:hover span {
   }
 /*-------------------------------END OF CONTACT ME PAGE CSS---------------------------------------*/
 
-/* INTRO SECTION
+/* ABOUT SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.box-bg-banner{
+  background-color: var(--main-red);
+}
+.hero-text-banner{
+  font-size: medium;
+}
+.border-color-custom{
+  border-color: var(--main-red);
+  border-width: 6px;
+  border-style: solid;
+}
 /*-----------CASE STUDIES---------------*/
 
 .carousel-caption {
