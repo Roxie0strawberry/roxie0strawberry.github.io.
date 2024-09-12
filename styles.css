@@ -718,6 +718,14 @@ a:hover span {
   border-width: 6px;
   border-style: solid;
 }
+.quirks-box{
+  background-color: var(--main-red);
+  border-color: var(--main-yellow);
+  border-width: 3px;
+  border-style: solid;
+  
+}
+ 
 /*-----------CASE STUDIES---------------*/
 
 .carousel-caption {
