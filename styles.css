@@ -711,7 +711,7 @@ a:hover span {
   background-color: var(--main-red);
 }
 .hero-text-banner{
-  font-size: medium;
+  font-size:x-large;
 }
 .border-color-custom{
   border-color: var(--main-red);
@@ -723,7 +723,24 @@ a:hover span {
   border-color: var(--main-yellow);
   border-width: 3px;
   border-style: solid;
+  max-width: 21rem;
+  min-width: 19rem;
+  min-height: 33rem;
   
+}
+@media (max-width:450px){
+  .twohalfs-img{
+    max-width: 300px;
+    min-height: 60px;
+    margin: 0 auto;
+    
+  }
+  .twohalfs-text{
+    display: none;
+  }
+  .quirks-box{
+    min-height: 26rem;
+  }
 }
  
 /*-----------CASE STUDIES---------------*/
