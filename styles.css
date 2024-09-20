@@ -728,6 +728,13 @@ a:hover span {
   min-height: 33rem;
   
 }
+.twohalfs-text{
+  color: var(--main-black);
+}
+.twohalfs-img{
+  max-width: 500px;
+  margin: 0 auto;
+}
 @media (max-width:450px){
   .twohalfs-img{
     max-width: 300px;
@@ -741,6 +748,14 @@ a:hover span {
   .quirks-box{
     min-height: 26rem;
   }
+}
+.hireme{
+  background-color: var(--main-yellow);
+  color: var(--main-black);
+}
+.hireme-btn{
+  background-color: var(--main-red);
+  color: var(--main-white);
 }
  
 /*-----------CASE STUDIES---------------*/
