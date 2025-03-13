@@ -244,6 +244,42 @@
   }
 }
 
+/* QUICK LOOK THINGY*/
+
+.quicklook9:hover{
+  font-size: 110% !important;
+  text-decoration: none;
+  animation-name: linkanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+@keyframes linkanimation {
+  0%   {color: var(--main-red);}
+  25%  {color: var(--main-yellow);}
+  50%  {color: var(--main-blue);}
+  100% {color: var(--main-green);}
+}
+@media (max-width:500px) {
+  .the9{
+    display: none;
+    
+  }
+  .IMGBRO{
+    order:2 ;
+
+  }
+  .WORDSBRO{
+    order: 1;
+
+  }
+}
+
+
+
+
+
 /*MENU OF SKILLS */
 .cv-menu{
   background-color: var(--main-yellow);
