@@ -916,6 +916,66 @@ Remove or comment-out the code block below to see how the browser will fall-back
   background-color: var(--main-red) !important;
 }
 
+.Atypical{
+  background-image:url("images/Atypical ink Divergent ink (2).png") ;
+  background-repeat: repeat;
+  background-color: #345995;
+  background-blend-mode:multiply;
+
+}
+.atypicallogo{
+  object-fit: cover;
+  max-width: 550px;
+  margin: 0 auto;
+  max-height: 200px;
+
+}
+.showoffatypical{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  min-height: 150px;
+  max-width: 250px;
+}
+
+.CTA-me{
+  animation-name: CTA;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+}
+
+/* The animation code */
+@keyframes CTA {
+  0%   {color: var(--main-red);}
+  25%  {color: var(--main-yellow);}
+  50%  {color: var(--main-blue);}
+  75% {color: var(--main-white);}
+  100% {color: var(--main-green);}
+}
+
+.soulEnergy{
+  background-image:url("images/Atypical ink Divergendt ink (2).png") ;
+  background-repeat: repeat;
+  background-color: #805b05;
+  background-blend-mode:multiply;
+
+}
+.soulenergytext{
+  margin-left: 800px;
+}
+
+.soulenergylogo{
+  object-fit: contain;
+  max-width: 550px;
+  margin: 0 auto;
+  max-height: 200px;
+
+}
+.soulenergybg{
+  background-color:#EEDDCD ;
+}
 
     /*----------------FOOTER----------------*/
 
